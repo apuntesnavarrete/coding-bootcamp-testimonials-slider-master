@@ -16,4 +16,22 @@ body{
     font-family: 'Inter', sans-serif;
     height: 100vh;
 }
+.content{
+    width: 325px;
+    border: 1px solid black;
+    margin: auto;
+    height: 550px;
+    
+}
+.content-slider{
+    display: flex;
+    position: absolute;
+    margin-left: -325px;
 
+}
+.Slider{
+    width: 325px;
+    height: 100%;
+    border: 1px solid salmon;
+    font-size: 0.5em;
+}

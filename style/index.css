@@ -21,11 +21,14 @@ body{
     border: 1px solid black;
     margin: auto;
     height: 550px;
-    
+    display: flex;
+
+    overflow: hidden; 
+
 }
 .content-slider{
     display: flex;
-    position: absolute;
+    position: relative;
     margin-left: 0;
 
 }

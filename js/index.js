@@ -1,6 +1,8 @@
 let left = document.querySelector(".left")
 
-let rigth = document.querySelector(".rigth")
+let rigth_one = document.querySelectorAll(".rigth")[0]
+let rigth_two = document.querySelectorAll(".rigth")[1]
+
 let contentSlider = document.querySelector(".content-slider")
 
 let SliderLast = document.querySelectorAll(".Slider")[1]
@@ -11,29 +13,34 @@ let slider = document.querySelectorAll(".Slider")
 
 //SI ESTOY EN 1 CLICK O NONE , PUEDO IR ALA IZQUIERDA NADAMAS 
 // Y MOSTRARE COMO OPCION SOLO EL BOTNO IZQUIERDO , INABILITADO DERECHO
-contentSlider.insertAdjacentElement('afterbegin',SliderLast);
 
 
 console.log(SliderLast)
 
-rigth.addEventListener("click",function(){
-    let SliderLast = document.querySelectorAll(".Slider")[slider.length -1]
-
-    contentSlider.insertAdjacentElement('afterbegin',SliderLast);
+rigth_one.addEventListener("click",function(){
 
 
-    contentSlider.style.marginLeft = "0px"
+
+    contentSlider.style.marginLeft = "-325px"
     contentSlider.style.transition = "all 1s"
 
     setTimeout(function(){
-        /*
-        let SliderLast = document.querySelectorAll(".Slider")[1]
+        contentSlider.style.transition= "none"
+        contentSlider.style.marginLeft= "0"
 
-        contentSlider.insertAdjacentElement('afterbegin',SliderLast);
-*/
-        contentSlider.style.marginLeft = "0"
+    }, 600);
+    
 
-    },1000)
+})
+
+rigth_two.addEventListener("click",function(){
+
+
+
+    contentSlider.style.marginLeft = "0"
+    contentSlider.style.transition = "all 1s"
+
+    
 
 })
 

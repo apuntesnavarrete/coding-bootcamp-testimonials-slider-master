@@ -19,9 +19,9 @@ body{
     align-items: center;
 }
 .content{
-    width: 325px;
+    width: 14.5em;
     margin: auto;
-    height: 550px;
+    height: 34.3em;
     display: flex;
 
     overflow: hidden; 
@@ -34,10 +34,9 @@ body{
 
 }
 .Slider{
-    width: 325px;
+    width: 29em;
     height: 100%;
     font-size: 0.5em;
-    width: 325px;
     height: 100%;
     font-size: 0.5em;
     box-shadow: 0px -4px 7px -3px var(--Grayish-Blue);
@@ -53,33 +52,36 @@ body{
     background-size: 90% 90%;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 15px;
+    padding-top: 0.93em;
 
 }
 
 .card_img{
-    width: 200px;
+    width: 24.3em;
     border-radius: 10px;
 }
 .content-botons{
     position: relative;
-    top: -10px;
-    width: 50px;
-    height: 27px;
+    top: -1.8em;
+    width: 7em;
+    height: 3.5em;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 38px;
     display: flex;
     border: 0px solid white;
     justify-content: center;
     align-items: center;
     color: var(--Dark-Blue);
+    font-size: 1.2em;
 }
 .botton{
     background-color: white;
     border: 0px solid white;
     color: var(--Grayish-Blue);
-    margin: 0px 5px;
+    margin: 0px 0.5em;
     cursor: pointer;
+    font-size: 1.8em;
+
 }
 
 .slider-bottom{
@@ -87,27 +89,29 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 23px;
+    padding: 0 1.43em;
     color: var(--Dark-Blue);
     width: 100%;
     height: 50%;
     background-image: url(../images/pattern-quotes.svg);
-    background-size: 40px 40px;
+    background-size: 2.5em 2.5em;
     background-repeat: no-repeat;
     background-position: center top;
+    font-size: 1.5em;
 }
 .bottom-description{
-    margin-top: 20px;
+    margin-top: 1.25em;
 
     font-weight: 300;
 }
 .content-data{
-    margin: 10px;
-    font-size: 0.9em;
+    margin: 1.5em 0;
+    font-size: 1em;
 
 }
 .name{
     font-weight: 700;
+    font-size: 1.5em;
 }
 .job{
     font-weight: 300;

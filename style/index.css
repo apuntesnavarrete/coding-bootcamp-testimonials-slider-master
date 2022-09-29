@@ -12,17 +12,18 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Inter', sans-serif;
     height: 100vh;
     display: flex;
     align-items: center;
 }
 .content{
-    width: 14.5em;
+    width: 15em;
     margin: auto;
-    height: 34.3em;
+    height: 48em;
     display: flex;
+    align-items: center;
 
     overflow: hidden; 
 
@@ -34,16 +35,18 @@ body{
 
 }
 .Slider{
-    width: 29em;
-    height: 100%;
+    width: 30em;
+    height: 58em;
     font-size: 0.5em;
-    height: 100%;
     font-size: 0.5em;
     box-shadow: 0px -4px 7px -3px var(--Grayish-Blue);
-    border-radius: 6px;}
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
 .slider-top{
     width: 100%;
-    height: 50%;
+    height: 41.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,7 +60,7 @@ body{
 }
 
 .card_img{
-    width: 24.3em;
+    width: 21.3em;
     border-radius: 10px;
 }
 .content-botons{
@@ -88,19 +91,19 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0 1.43em;
     color: var(--Dark-Blue);
     width: 100%;
-    height: 50%;
+    height: 21.5em;
     background-image: url(../images/pattern-quotes.svg);
-    background-size: 2.5em 2.5em;
+    background-size: 3.5em 3.5em;
     background-repeat: no-repeat;
     background-position: center top;
     font-size: 1.5em;
 }
 .bottom-description{
-    margin-top: 1.25em;
 
     font-weight: 300;
 }
@@ -116,4 +119,8 @@ body{
 .job{
     font-weight: 300;
     color: var(--Grayish-Blue);
+    font-size: 0.9em;
+    margin: 0.1em 0;
+
 }
+

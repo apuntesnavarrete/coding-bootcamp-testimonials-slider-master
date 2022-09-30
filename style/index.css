@@ -138,6 +138,23 @@ body{
     .slider-top{
         height: 34.5em;
         background-size: 100% 100%;
-        padding-top: 0;
+         padding-top: 0;
+    }
+    .slider-bottom{
+        background-position: center 3em;
+        padding: 0 ; 
+        text-align: start;
+        align-items: flex-start;
+        font-size: 1.75em;
+
+    }
+    .content-data{
+        display: flex;
+        align-items: center;
+        font-size: 0.8em;
+
+    }
+    .job{
+        margin: 0 0.5em;
     }
   }

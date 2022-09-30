@@ -24,7 +24,7 @@ body{
     display: flex;
     align-items: center;
 
-    overflow: hidden; 
+   overflow: hidden; 
 
 }
 .content-slider{
@@ -123,3 +123,21 @@ body{
 
 }
 
+@media (min-width: 1000px) {
+    .Slider{
+        flex-direction: row-reverse;
+        width: 70em;
+        align-items: center;
+        height: 41em;
+
+    }
+    .content{
+        width: 34em;
+ 
+    }
+    .slider-top{
+        height: 34.5em;
+        background-size: 100% 100%;
+        padding-top: 0;
+    }
+  }

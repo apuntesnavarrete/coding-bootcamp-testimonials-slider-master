@@ -3,8 +3,8 @@ let rigth = document.querySelectorAll(".rigth")
 
 let contentSlider = document.querySelector(".content-slider")
 
-let input_left = "-325px"
-let input_rigth = "325px"
+let input_left = "-100%"
+let input_rigth = "100%"
 
 function slider_direcction(mov){
     contentSlider.style.marginLeft = mov

@@ -42,6 +42,12 @@ body{
     border-radius: 6px;
     display: flex;
     flex-direction: column;
+    background-image: url("../images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 8%;
+
+
 }
 .slider-top{
     width: 100%;
@@ -129,7 +135,8 @@ body{
         width: 70em;
         align-items: center;
         height: 41em;
-
+        background-position: bottom left;
+        background-size: 50% 15%;
     }
     .content{
         width: 34em;

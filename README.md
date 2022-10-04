@@ -6,4 +6,4 @@
 
 Thanks for checking out this front-end coding challenge.
 
-I'd like your feedback
+I'd like receive your feedback
